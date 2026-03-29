@@ -14,7 +14,7 @@ header {
     top: 0px;
     background-color: $bg-secondary;
     color: $text-main;
-    height: 75px;
+    height: $header-footer-height;
     display: flex;
     align-items: center;
     overflow: hidden;

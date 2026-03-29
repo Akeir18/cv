@@ -17,7 +17,7 @@ import { computed } from 'vue';
 main {
     background-color: $bg-primary;
     color: $text-main;
-    min-height: calc(100dvh - 150px);
+    min-height: calc(100dvh - calc($header-footer-height * 2));
     padding: $spacing-xs;
 
     @include responsive(mobile) {

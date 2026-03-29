@@ -15,7 +15,7 @@ import NameComponent from './base/NameComponent.vue';
 footer {
     background-color: $bg-secondary;
     color: $text-main;
-    height: 75px;
+    height: $header-footer-height;
     display: flex;
     align-items: center;
     overflow: hidden;
