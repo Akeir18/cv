@@ -1,11 +1,17 @@
+<script setup lang="ts">
+import NameComponent from './base/NameComponent.vue';
+</script>
+
 <template>
     <header>
-        <h1>Header</h1>
+        <name-component />
     </header>
 </template>
 
 <style lang="scss">
 header {
+    position: sticky;
+    top: 0px;
     background-color: $bg-secondary;
     color: $text-main;
     height: 75px;

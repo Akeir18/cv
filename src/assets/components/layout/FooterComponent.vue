@@ -1,6 +1,13 @@
+<script setup lang="ts">
+import NameComponent from './base/NameComponent.vue';
+
+</script>
+
+
+
 <template>
     <footer>
-        <h1>Footer</h1>
+        <name-component />
     </footer>
 </template>
 
