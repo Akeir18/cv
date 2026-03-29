@@ -12,12 +12,12 @@ div {
     gap: $spacing-xs;
 
     h1 {
-        font-size: 1.5rem;
+        font-size: $spacing-lg;
         font-weight: 700;
     }
 
     h3 {
-        font-size: 1rem;
+        font-size: $spacing-md;
         font-weight: 400;
     }
 }
