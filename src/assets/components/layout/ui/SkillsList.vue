@@ -18,3 +18,22 @@ const props = defineProps<{
         </li>
     </ul>
 </template>
+
+<style scoped lang="scss">
+h2 {
+    text-wrap: nowrap;
+}
+ul {
+    list-style: none;
+    padding-left: $spacing-xs;
+
+    @include responsive('tablet') {
+        padding-left: $spacing-md;
+    }
+    
+    li {
+        text-wrap: nowrap;
+    }
+
+}
+</style>
