@@ -21,13 +21,42 @@ onMounted(async () => {
 
 <template>
   <main-layout>
-    <section>
-      <skills-list title="Habilidades Blandas" :skills="softSkills" />
-    </section>
-    <section>
-      <skills-list title="Habilidades Técnicas" :skills="hardSkills" />
-    </section>
+    <div class="skills">
+      <h2>Habilidades</h2>
+      <div class="skills-content">
+        <section>
+          <skills-list title="Habilidades Blandas" :skills="softSkills" />
+        </section>
+        <section>
+          <skills-list title="Habilidades Técnicas" :skills="hardSkills" />
+        </section>
+      </div>
+    </div>
   </main-layout>
 </template>
 
-<style scoped></style>
+<style scoped lang="scss">
+.skills 
+{
+  display: flex;
+  gap: $spacing-md;
+  align-items: center;
+  flex-direction: column;
+
+  .skills-content {
+    display: flex;
+    gap: $spacing-xl;
+    flex-direction: column;
+
+    @include responsive('tablet') {
+      flex-direction: row;
+      gap: $spacing-xl;
+    }
+
+  }
+
+  section {
+    width: 80%;
+  }
+}
+</style>
