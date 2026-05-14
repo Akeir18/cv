@@ -1,0 +1,60 @@
+{
+    "title": "Desarrollador de Aplicaciones Web",
+    "email": "christianjimenezroche@gmail.com",
+    "phone": "+34 608 03 32 23",
+    "softSkills": [
+        {
+            "name": "Comunicación",
+            "level": 3
+        },
+        {
+            "name": "Trabajo en equipo",
+            "level": 4
+        },
+        {
+            "name": "Liderazgo",
+            "level": 3
+        },
+        {
+            "name": "Resolución de problemas",
+            "level": 4
+        },
+        {
+            "name": "Nuevo desarrollo",
+            "level": 5
+        }
+    ],
+    "hardSkills": [
+        {
+            "name": "JavaScript/TypeScript",
+            "level": 5
+        },
+        {
+            "name": "Vue.js",
+            "level": 4
+        },
+        {
+            "name": "React",
+            "level": 3
+        },
+        {
+            "name": "SQL",
+            "level": 4
+        }
+    ],
+    "experience": [
+        {
+            "position": "Desarrollador Frontend",
+            "company": "Nombre Empresa",
+            "date": "2023 - Presente",
+            "description": "Descripción de tus responsabilidades"
+        }
+    ],
+    "education": [
+        {
+            "title": "Grado Superior en DAW",
+            "institution": "Instituto",
+            "year": 2023
+        }
+    ]
+}

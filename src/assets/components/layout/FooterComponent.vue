@@ -19,11 +19,7 @@ footer {
     display: flex;
     align-items: center;
     overflow: hidden;
-    padding: 0px $spacing-xs;
-
-    @include responsive(mobile) {
-        padding: 0px $spacing-sm;
-    }
+    padding: 0px $spacing-sm;
 
     @include responsive(tablet) {
         padding: 0px $spacing-md;
